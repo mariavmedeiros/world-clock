@@ -5,12 +5,11 @@ body {
 }
 
 .container {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: 60px auto;
   background: white;
   padding: 30px;
-  margin: 60px 0;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
 }
 .city {
@@ -37,6 +36,11 @@ body {
   vertical-align: middle;
   line-height: 36px;
 }
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
 select {
   display: block;
   width: 100%;
@@ -55,4 +59,6 @@ h2 {
 }
 footer {
   text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
 }
