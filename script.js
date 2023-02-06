@@ -7,7 +7,7 @@ let losAngelesTime = moment().tz("America/Los_Angeles");
 
 losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do, YYYY ");
 losAngelesTimeElement.innerHTML = losAngelesTime.format(
-  "h:mm [<small>]A[</small>]"
+  "h:mm:ss [<small>]A[</small>]"
 );
 
 //São Paulo
@@ -19,5 +19,5 @@ let saoPauloTime = moment().tz("America/Sao_Paulo");
 
 saoPauloDateElement.innerHTML = saoPauloTime.format(" MMMM Do, YYYY");
 saoPauloTimeElement.innerHTML = saoPauloTime.format(
-  "h:mm [<small>]A[</small>]"
+  "h:mm:ss [<small>]A[</small>]"
 );
