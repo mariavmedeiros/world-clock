@@ -1,4 +1,4 @@
-function updateLosAngelesTime() {
+function updateTime() {
   //Los Angeles
   let losAngelesElement = document.querySelector("#losangeles");
   let losAngelesDateElement = losAngelesElement.querySelector(".date");
@@ -9,10 +9,7 @@ function updateLosAngelesTime() {
   losAngelesTimeElement.innerHTML = losAngelesTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
-}
-setInterval(updateLosAngelesTime, 1000);
 
-function updateSaoPauloTime() {
   //São Paulo
 
   let saoPauloElement = document.querySelector("#saopaulo");
@@ -25,5 +22,4 @@ function updateSaoPauloTime() {
     "h:mm:ss [<small>]A[</small>]"
   );
 }
-
-setInterval(updateSaoPauloTime, 1000);
+setInterval(updateTime, 1000);
